@@ -1,0 +1,47 @@
+body {
+  background-color: #353535;
+}
+.nav-stly {
+  background-color: #080808;
+}
+h1 {
+  color: #fff;
+}
+a {
+  color: #e1e1e1;
+}
+.card {
+  background-color: #e4e4e4;
+  box-shadow: 10px 10px 10px #141212;
+}
+.dep h1 {
+  color: rgb(255, 255, 255);
+}
+.card {
+  padding: 0;
+  border-color: #dbdbdb;
+}
+.card-body {
+  background-color: #dbdbdb;
+  border-radius: 5px;
+}
+.table {
+  margin-bottom: 0px !important;
+}
+.page__content h1,
+.page__content p {
+  color: #d8d8d9;
+}
+.bubble2 {
+  background-color: #ffffff;
+  color: #212121;
+}
+.bubble2::before {
+  background-color: #83a2ec;
+}
+.bubble2:hover {
+  color: #ffffff;
+}
+.barssi {
+  color: white;
+}

@@ -1,0 +1,110 @@
+body {
+  background-color: #d5d5d5;
+}
+h1 {
+  font-size: 50px;
+  color: rgb(77, 77, 221);
+  text-align: center;
+  margin-top: 50px;
+}
+.nav-stly {
+  background-color: #f8f9fa;
+}
+.page__content {
+  height: 200px;
+  padding: 30px 10%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__content h1,
+.page__content p {
+  color: blue;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+}
+.page__content h1 {
+  font-size: 110px;
+  text-shadow: 16px 11px 9px #7979f5;
+}
+.page__content p {
+  font-size: 33px;
+}
+.dep h1 {
+  color: rgb(112, 112, 227);
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+}
+.card {
+  padding: 20px;
+  border-color: #b4b4b4;
+  background-color: #b4b4b4;
+  box-shadow: 10px 10px 10px #9c9c9c;
+}
+.card-body {
+  border-radius: 5px;
+  background-color: #fbfbfb;
+}
+.edi {
+  background-color: white !important;
+}
+.carsp {
+  border-color: #dbdbdb;
+  background-color: #dbdbdb;
+  box-shadow: 10px 10px 10px #b1b1b1;
+}
+.table {
+  margin-bottom: 0px !important;
+}
+label {
+  font-size: 20px;
+  color: rgb(19, 20, 20);
+  font-weight: 600;
+}
+
+.bubble1 {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+  border-radius: 5px;
+}
+
+.bubble1::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #000000;
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+
+.bubble1:hover {
+  cursor: pointer;
+  color: #efefef;
+}
+
+.bubble1:hover::before {
+  transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+}
+
+.image {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+}
